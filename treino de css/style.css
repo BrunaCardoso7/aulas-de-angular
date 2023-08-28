@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: gray;
+}
+/* body >img{
+    /*filter: blur(4px); embaça a imagem*/
+    /* filter: brightness(0.2); altera a iluminação da imagem*/
+    /* filter: contrast(3); altera o contraste da imagem*/
+    /* filter: grayscale(1); altera foto para preto e branco*/
+    /* filter: hue-rotate(180deg); altera a cor de acordo com o grau  do circulo cromático*/
+    /* filter: invert(0.5); inverte as cores*/
+    /* filter: saturate(2); altera a saturação das imagens*/
+    /* filter: drop-shadow(3px 5px 5px); ajusta o sombreamento externo da imagem*/
+    /* filter: drop-shadow(3px 5px 10px orange  ); */
+/* }
+img:hover{
+    cursor: crosshair;
+} */ 
+.img{
+    background-color: blue;
+    height: 70px;
+    width: 200px;
+    /* clip-path: inset(60px 10px ); */
+    /* clip-path: circle(50% at 100% 80%); */
+    clip-path: ellipse(50% 80%);
+}
